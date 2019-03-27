@@ -7,5 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julesburn/address-bloc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/julesburn/address-bloc/issues"
+  },
+  "homepage": "https://github.com/julesburn/address-bloc#readme",
+  "dependencies": {
+    "inquirer": "^5.1.0"
+  }
 }
