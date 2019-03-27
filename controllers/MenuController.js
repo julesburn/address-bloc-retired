@@ -52,10 +52,9 @@ module.exports = class MenuController{
     var date = (today.getMonth()+1)+'-'+today.getDate()+'-'+today.getFullYear();
     var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
     var dateTime = date+' '+time;
-    console.log(Date());
+    console.log("It is currently "+Date());
     this.main();
   }
-
 
   exit(){
     console.log("Thanks for using AddressBloc!");
