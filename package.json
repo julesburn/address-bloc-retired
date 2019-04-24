@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/julesburn/address-bloc#readme",
   "dependencies": {
+    "express": "^4.16.4",
     "inquirer": "^5.1.0"
   },
   "devDependencies": {
