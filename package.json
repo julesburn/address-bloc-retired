@@ -20,10 +20,7 @@
   "dependencies": {
     "express": "^4.16.4",
     "inquirer": "^5.1.0",
-<<<<<<< HEAD
-=======
     "mysql2": "^1.6.5",
->>>>>>> 012c825d29f0d1aa809cf60f7d240a10a67e6537
     "pg": "^7.4.1",
     "pg-hstore": "^2.3.2",
     "sequelize": "^4.32.6"
