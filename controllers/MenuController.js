@@ -43,8 +43,15 @@ module.exports = class MenuController{
 
   addContact(){
     this.clear();
-    console.log('addContact called');
-    this.main();
+    inquirer.prompt(this.book.addContactQuestions).then((answers) => {
+      this.book.addContact(answers.name, answers.phone).then((contact) => {
+        console.log("Contact added successfully!");
+        thismain();
+      }).catch((err) => {
+        console.log(err);
+        this.main();
+      });
+    });
   }
 
   getDate(){
