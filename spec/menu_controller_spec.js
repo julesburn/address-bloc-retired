@@ -22,7 +22,7 @@ describe("MenuController", () => {
 //#3
   describe("#remindMe()", () => {
 
-    it("should returnpm  'Learning is a life-long pursuit'", () =>{
+    it("should return 'Learning is a life-long pursuit'", () =>{
       expect(this.menu.remindMe()).toBe("Learning is a life-long pursuit");
     });
 
